@@ -4,17 +4,28 @@
   "description": "RealAPI exporter for Babylon.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm version patch --no-git-tag-version && npm publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Realistic3D/real_bbl_export.git"
   },
-  "keywords": [],
+  "keywords": [
+    "R3D",
+    "render",
+    "Real3D",
+    "Babylon",
+    "RealAPI"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Realistic3D/real_bbl_export/issues"
+    "url": "https://discord.gg/ak7kQwjkte"
   },
-  "homepage": "https://github.com/Realistic3D/real_bbl_export#readme"
+  "homepage": "https://realistic3.com",
+  "dependencies": {
+    "babylonjs": "^7.3.1",
+    "babylonjs-serializers": "^7.5.0"
+  }
 }
